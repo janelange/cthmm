@@ -5,6 +5,7 @@ NULL
 #' @description EM algorithm to get MLEs for latent CTMC parameters 
 #'
 #' @details Run the expectation-maximization algorithm to get the maximum likelihood
+#' TEST
 #' estimates for latent CTMC model parameters for multistate disease models. Data are discretely observed disease
 #' processes from multiple independent individuals. Times may be non-informative
 #' scheduled times or disease-dependent (informative) times. Uses the SQUAREM package for EM acceleration. 
