@@ -1,0 +1,46 @@
+Package: cthmm
+Type: Package
+Title: Latent Continuous Time Markov Chains
+Version: 1.0
+Date: 2012-08-16
+Author: Jane Lange
+Maintainer: Jane Lange <lange@u.washington.edu>
+Description: Fit latent CTMC models to multistate panel data.
+License: GSL
+LazyLoad: yes
+ByteCompile: TRUE
+Depends:
+    Rcpp (>= 0.9.4),
+    RcppArmadillo (>= 0.2.22),
+    msm,
+    SQUAREM,
+    magic,
+    numDeriv,
+    corpcor
+LinkingTo: Rcpp, RcppArmadillo
+Collate:
+    'EM.R'
+    'E_step_init_emission.r'
+    'cappe_first_moment.R'
+    'covariates_max.R'
+    'design_setup.r'
+    'eigen_decomp_list_R.R'
+    'expected_dur_trans.R'
+    'get_mean.R'
+    'indiv.emission.init.rate.r'
+    'joint_first_moments.r'
+    'louis.R'
+    'mat_exp_eigen_R.R'
+    'phase.hazard.r'
+    'rcpparma_forwardback.R'
+    'update.emission.params.R'
+    'update.init.params.r'
+    'update.rate.params.r'
+    'eigen_moment2.R'
+    'Cappe_second_moment.R'
+    'Cappe_functions_tau.R'
+    'transition_probs.R'
+    'transition_prob_list.R'
+    'trans_probs_all.R'
+    'functionals.R'
+    'Numeric_hessian.R'
